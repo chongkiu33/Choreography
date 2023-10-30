@@ -1,0 +1,81 @@
+@font-face{
+    font-family: 'Arial';
+    src: url('typeface/Arial\ Rounded\ Bold.ttf');
+}
+
+@font-face{
+    font-family: 'Acumin';
+    src: url('typeface/AcuminVariableConcept.otf');
+}
+
+body{
+    padding: 0;
+    width: 100%;
+    height: 100;
+    overflow: hidden;    
+    
+}
+
+.circle{
+    background: black;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    
+    
+}
+
+.point{
+    margin: 0;
+    position: absolute;
+    
+}
+
+
+.number{
+    font-family:'Arial' ;
+    position: absolute;
+    margin-top: 10px;
+
+}
+
+#bodypoint{
+    margin-left: -6%;
+    margin-top: -3%;
+    
+}
+
+
+.block{
+    font-family: 'Acumin';
+    
+    margin-top: 0.5vh;
+    opacity: 35%;
+}
+
+.block:hovver{
+    opacity: 100%;
+}
+
+.blocktext{
+    position: absolute;
+    width: 23.25vw;
+    height: 96%;
+    overflow: auto;
+    font-size: 12pt;
+    
+}
+
+
+.trail{
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #c693f6;
+    background:#c693f6;
+    position: fixed;
+    z-index: 999999999;
+    animation: come 1s linear forwards;
+    mix-blend-mode: multiply;
+}
