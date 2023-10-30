@@ -189,11 +189,11 @@ function DrawPoints(){
 var blocks = document.querySelectorAll('.block');
 
 for(let i=0 ; i< blocks.length;i++){
-    circles[i].onmousemove = function(e){
+    points[i].onmousemove = function(e){
         blocks[i].style.opacity = '100%';
     }
 
-    circles[i].onmouseleave = function(e){
+    points[i].onmouseleave = function(e){
         blocks[i].style.opacity = '35%';
     }
 }
